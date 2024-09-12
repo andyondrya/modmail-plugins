@@ -18,10 +18,10 @@ class EmbedRaw(commands.Cog):
         
         try:
             msg = await ctx.fetch_message(message_id)
-        except Exception as e:
-            print(str(e))
-        msgg = msg.embeds[0]
-        await ctx.send(f"```{msgg.description}```")
+        except commands.CommandInvokeError:
+            return await ctx.send("Message not found")
+
+        await ctx.send(f"```{msg.embeds[0].description}```")
         
 
 async def setup(bot):
