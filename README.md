@@ -1,7 +1,7 @@
 # Modmail Plugins 
 
-These plugins are for [Modmail](https://github.com/kyb3r/modmail)
+These plugins are for [Modmail](https://github.com/modmail-dev/modmail)
 
-# Help / Assistance
+# Help/Assistance 
 
-If you need any help or assistance, mention me in #plugin-support in the [support server](https://discord.gg/etJNHCQ)
+Mention me in Discord or create an issue here
